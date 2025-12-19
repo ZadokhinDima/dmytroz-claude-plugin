@@ -1,0 +1,30 @@
+# Claude Code local settings
+.claude/*.local.md
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+output/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local

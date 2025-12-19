@@ -1,0 +1,21 @@
+{
+  "name": "presentation-creator",
+  "version": "0.1.0",
+  "description": "Create beautiful interactive HTML presentations from semantic markdown with automated build pipeline, media management, and data visualization support",
+  "author": {
+    "name": "Dmytro Zadokhin",
+    "email": "dmytro@example.com"
+  },
+  "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin/tree/main/presentation-creator",
+  "repository": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "presentation",
+    "slides",
+    "reveal.js",
+    "html",
+    "visualization",
+    "charts",
+    "markdown"
+  ]
+}
