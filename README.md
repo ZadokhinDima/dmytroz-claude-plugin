@@ -56,7 +56,7 @@ claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presenta
 
 ## Browse Plugins
 
-**View all available plugins:** See the [`marketplace.json`](./marketplace.json) file or browse the repository.
+**View all available plugins:** See the [`marketplace.json`](./.claude-plugin/marketplace.json) file or browse the repository.
 
 **Current plugins:**
 - [presentation-creator](./presentation-creator) - Interactive HTML presentations
