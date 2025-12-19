@@ -22,6 +22,22 @@ This plugin enables a clean, content-first approach to creating presentations:
 
 ## Installation
 
+### Option 1: Install from Marketplace (Recommended)
+
+First, add the dmytroz-claude marketplace:
+
+```bash
+claude plugin marketplace add https://github.com/ZadokhinDima/dmytroz-claude-plugin
+```
+
+Then install the plugin by name:
+
+```bash
+claude plugin install presentation-creator
+```
+
+### Option 2: Direct Install
+
 ```bash
 claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presentation-creator
 ```

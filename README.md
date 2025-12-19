@@ -5,10 +5,29 @@
 
 Personal collection of Claude Code plugins for automation, workflows, and productivity.
 
-## Quick Install
+## Quick Start
+
+### Add This Marketplace
+
+Register this marketplace to browse and install plugins through Claude Code:
 
 ```bash
-# Install presentation-creator plugin
+claude plugin marketplace add https://github.com/ZadokhinDima/dmytroz-claude-plugin
+```
+
+After adding the marketplace, you can:
+- Browse plugins with `/plugin` command in Claude Code
+- Install any plugin from this marketplace
+
+### Install Plugins
+
+Once the marketplace is added, install plugins by name:
+
+```bash
+# Install from your registered marketplace
+claude plugin install presentation-creator
+
+# Or install directly via URL
 claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presentation-creator
 ```
 
@@ -58,6 +77,19 @@ claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/<plugin-
 claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presentation-creator
 ```
 
+### Managing Marketplaces
+
+```bash
+# List all registered marketplaces
+claude plugin marketplace list
+
+# Update marketplace (refresh plugin list)
+claude plugin marketplace update dmytroz-claude-plugin
+
+# Remove marketplace
+claude plugin marketplace remove dmytroz-claude-plugin
+```
+
 ### Managing Plugins
 
 ```bash
@@ -65,10 +97,14 @@ claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presenta
 claude plugin list
 
 # Remove a plugin
-claude plugin remove <plugin-name>
+claude plugin remove presentation-creator
 
 # Update a plugin
-claude plugin update <plugin-name>
+claude plugin update presentation-creator
+
+# Enable/disable a plugin
+claude plugin enable presentation-creator
+claude plugin disable presentation-creator
 ```
 
 ## Contributing
