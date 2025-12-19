@@ -1,6 +1,16 @@
 # Dmytroz Claude Plugin Marketplace
 
+[![Plugins](https://img.shields.io/badge/plugins-1-blue)](https://github.com/ZadokhinDima/dmytroz-claude-plugin)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Personal collection of Claude Code plugins for automation, workflows, and productivity.
+
+## Quick Install
+
+```bash
+# Install presentation-creator plugin
+claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presentation-creator
+```
 
 ## Available Plugins
 
@@ -22,6 +32,15 @@ claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presenta
 ```
 
 **Learn more:** [presentation-creator documentation](./presentation-creator/README.md)
+
+---
+
+## Browse Plugins
+
+**View all available plugins:** See the [`marketplace.json`](./marketplace.json) file or browse the repository.
+
+**Current plugins:**
+- [presentation-creator](./presentation-creator) - Interactive HTML presentations
 
 ---
 
