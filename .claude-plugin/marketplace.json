@@ -1,19 +1,25 @@
 {
-  "name": "Dmytroz Claude Marketplace",
-  "description": "Personal collection of Claude Code plugins for automation and productivity",
-  "author": "Dmytro Zadokhin",
-  "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
+  "name": "dmytroz-marketplace",
+  "owner": {
+    "name": "Dmytro Zadokhin"
+  },
+  "metadata": {
+    "description": "Personal collection of Claude Code plugins for automation and productivity"
+  },
   "plugins": [
     {
       "name": "presentation-creator",
       "version": "0.1.0",
       "description": "Create beautiful interactive HTML presentations from semantic markdown",
-      "path": "presentation-creator",
-      "installUrl": "https://github.com/ZadokhinDima/dmytroz-claude-plugin/presentation-creator",
+      "source": "./presentation-creator",
       "category": "productivity",
       "tags": ["presentation", "slides", "visualization", "charts", "markdown"],
-      "author": "Dmytro Zadokhin",
-      "license": "MIT"
+      "author": {
+        "name": "Dmytro Zadokhin"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
+      "repository": "https://github.com/ZadokhinDima/dmytroz-claude-plugin"
     }
   ]
 }
