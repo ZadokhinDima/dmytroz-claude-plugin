@@ -46,12 +46,31 @@ claude plugin add https://github.com/ZadokhinDima/dmytroz-claude-plugin/presenta
 
 ### 1. Create a New Presentation
 
+#### Option A: Quick Setup (init-presentation)
+
 ```bash
 # In your project directory
-/create-presentation my-presentation
+/init-presentation my-presentation
 ```
 
-This creates:
+Creates a basic structure with template content for manual editing.
+
+#### Option B: Interactive Guided Setup (edit-slides)
+
+```bash
+# For a guided, interactive experience (create or edit)
+/edit-slides my-presentation
+```
+
+Intelligently guides you through presentation creation AND editing:
+- **Smart Resume**: Detects existing presentations and offers to continue
+- **Style Management**: Checks for existing styles, offers to edit or keep them
+- **Slide-by-Slide**: Interactive workflow with confirmations at each step
+- **Discovery Phase**: Asks about topic, audience, objectives (for new presentations)
+- **Visual Previews**: Shows HTML previews of styles and color schemes
+- **Flexible Editing**: Edit specific slides, add new ones, or redesign completely
+
+Both create:
 ```
 my-presentation/
 ├── content.md              # Your presentation content
@@ -146,7 +165,8 @@ Opens `output/index.html` in your browser!
 
 | Command | Description |
 |---------|-------------|
-| `/create-presentation` | Initialize new presentation structure |
+| `/init-presentation` | Quick setup: Initialize new presentation structure with template |
+| `/edit-slides` | Interactive guided creation/editing with smart resume, style management, and slide-by-slide planning |
 | `/build-presentation` | Parse content.md and generate HTML |
 | `/validate-presentation` | Check tags, references, and file structure |
 | `/preview-presentation` | Launch dev server with live reload |
@@ -181,12 +201,27 @@ Access guidelines via the `presentation-structure` skill (automatically loaded).
 
 ## Workflow
 
-1. **Create**: `/create-presentation my-deck`
+### Quick Workflow (init-presentation)
+1. **Create**: `/init-presentation my-deck`
 2. **Write**: Edit `content.md` with tags
 3. **Add Assets**: Place images in `images/`, CSVs in `data/`
 4. **Build**: `/build-presentation` (or auto-build on save)
 5. **Preview**: Open `output/index.html`
 6. **Iterate**: Edit and rebuild as needed
+
+### Guided Workflow (edit-slides)
+1. **Create or Resume**: `/edit-slides my-deck` (detects existing presentations)
+2. **Style Check**: Choose to keep, update, or create new styles
+3. **Answer Questions**: Topic, audience, objectives (if new)
+4. **Visual Selection**: Choose from style previews with HTML samples
+5. **Plan Slides**: Review and confirm each slide as it's created
+6. **Add Assets**: Add images and populate CSV files as specified
+7. **Build**: `/build-presentation` (auto-generated structure ready)
+8. **Preview**: Open `output/index.html`
+
+**Resume existing presentation:**
+- `/edit-slides my-deck` on existing presentation
+- Offers to continue from last slide, edit specific slides, or update styles
 
 ## Advanced Usage
 

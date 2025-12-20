@@ -1,5 +1,5 @@
 ---
-name: create-presentation
+name: init-presentation
 description: Initialize a new presentation with proper folder structure
 argument-hint: <presentation-name>
 allowed-tools:
@@ -8,14 +8,14 @@ allowed-tools:
   - Read
 ---
 
-# Create Presentation Command
+# Init Presentation Command
 
 Initialize a new presentation project with the standard folder structure and template files.
 
 ## Usage
 
 ```
-/create-presentation my-presentation
+/init-presentation my-presentation
 ```
 
 ## What This Command Does
