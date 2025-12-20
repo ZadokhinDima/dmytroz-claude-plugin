@@ -1,23 +1,25 @@
 {
-  "PostToolUse": [
-    {
-      "matcher": "Write|Edit",
-      "hooks": [
-        {
-          "type": "prompt",
-          "prompt": "A file was just modified. Check if the file is named 'content.md' in a presentation directory (has images/, data/, scripts/ folders). If it is a presentation's content.md file and the user has autoBuild enabled in their settings (.claude/presentation-creator.local.md), automatically rebuild the presentation by running the equivalent of /build-presentation. If autoBuild is not enabled or this is not a presentation directory, do nothing. Be silent about this check - only speak if you're rebuilding the presentation."
-        }
-      ]
-    }
-  ],
-  "SessionStart": [
-    {
-      "hooks": [
-        {
-          "type": "prompt",
-          "prompt": "Check if the current directory contains a presentation (has content.md, images/, data/ folders). If it does, briefly mention that presentation-creator plugin is available and list the available commands: /create-presentation, /build-presentation, /validate-presentation, /preview-presentation. Keep this message very brief (1-2 lines). If not a presentation directory, say nothing about this plugin."
-        }
-      ]
-    }
-  ]
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A file was just modified. Check if the file is named 'content.md' in a presentation directory (has images/, data/, scripts/ folders). If it is a presentation's content.md file and the user has autoBuild enabled in their settings (.claude/presentation-creator.local.md), automatically rebuild the presentation by running the equivalent of /build-presentation. If autoBuild is not enabled or this is not a presentation directory, do nothing. Be silent about this check - only speak if you're rebuilding the presentation."
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Check if the current directory contains a presentation (has content.md, images/, data/ folders). If it does, briefly mention that presentation-creator plugin is available and list the available commands: /create-presentation, /build-presentation, /validate-presentation, /preview-presentation. Keep this message very brief (1-2 lines). If not a presentation directory, say nothing about this plugin."
+          }
+        ]
+      }
+    ]
+  }
 }
