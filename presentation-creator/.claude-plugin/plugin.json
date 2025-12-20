@@ -1,6 +1,6 @@
 {
   "name": "presentation-creator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Create beautiful interactive HTML presentations from semantic markdown with automated build pipeline, media management, and data visualization support",
   "author": {
     "name": "Dmytro Zadokhin",

@@ -1,5 +1,16 @@
 {
   "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A skill is about to be executed. Check if the skill is 'build-presentation' or 'preview-presentation'. If it is, first check if a scripts/ directory exists in the current presentation directory. If scripts/ exists and contains any .js or .py files, run all scripts in that directory using the appropriate interpreter (node for .js, python for .py) BEFORE proceeding with the build. If scripts run successfully, continue with the original command. If scripts fail, warn the user but still proceed with the build. Be brief - just mention 'Running presentation scripts...' when executing them."
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Write|Edit",
