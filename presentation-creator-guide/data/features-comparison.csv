@@ -1,0 +1,6 @@
+Feature,Supported,Description
+Images,Yes,PNG/JPG/GIF with custom sizing
+Charts,Yes,Bar/Line/Pie/Scatter/Doughnut
+Tables,Yes,Striped/Bordered/Minimal styles
+Code Blocks,Yes,Syntax highlighting support
+Custom Styles,Yes,YAML frontmatter configuration
