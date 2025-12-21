@@ -260,5 +260,6 @@ Support different validation levels:
 ## Related
 
 - Run `/build-presentation` after validation passes
-- Use presentation-structure skill for tag syntax reference
+- Use `presentation-structure` skill for tag syntax reference
+- Use `presentation-examples` skill to see correct presentation structure
 - Consult references/tag-syntax.md for detailed tag documentation

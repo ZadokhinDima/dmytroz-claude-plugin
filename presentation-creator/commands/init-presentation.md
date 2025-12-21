@@ -157,9 +157,11 @@ Use only alphanumeric characters, hyphens, and underscores.
 - Check that you're in the correct parent directory before running
 - Review the template content.md to understand the tag system
 - Start by customizing the template before creating from scratch
+- **See complete examples**: Use `presentation-examples` skill to view full working presentations
 
 ## Related
 
 - Run `/build-presentation` after editing content
 - Use `/validate-presentation` to check for errors
-- Use presentation-structure skill for tag syntax guidance
+- Use `presentation-structure` skill for tag syntax guidance
+- Use `presentation-examples` skill to see complete working presentations and learn by example

@@ -624,3 +624,4 @@ Your work has been preserved.
 - `/build-presentation` - Generate HTML from content.md
 - `/validate-presentation` - Check structure and resources
 - `/preview-presentation` - Launch preview server
+- `presentation-examples` skill - View complete working presentations for inspiration and reference

@@ -238,5 +238,6 @@ Read settings from `.claude/presentation-creator.local.md`:
 ## Related
 
 - Use `/validate-presentation` before building
-- Use `/create-presentation` to initialize structure
-- Use presentation-structure skill for tag syntax
+- Use `/init-presentation` to initialize structure
+- Use `presentation-structure` skill for tag syntax
+- Use `presentation-examples` skill to see complete working presentations

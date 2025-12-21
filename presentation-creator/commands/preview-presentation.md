@@ -335,4 +335,5 @@ Run /create-presentation first or navigate to presentation directory.
 
 - Use `/build-presentation` for one-time builds
 - Use `/validate-presentation` if build fails
-- Consult presentation-structure skill for tag syntax
+- Use `presentation-structure` skill for tag syntax
+- Use `presentation-examples` skill to see example presentations in action

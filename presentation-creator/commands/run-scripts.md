@@ -50,3 +50,9 @@ All scripts completed successfully.
 - Scripts are automatically run before `/build-presentation` and `/preview-presentation`
 - You can add custom scripts to automate data generation, asset processing, etc.
 - Scripts have access to the presentation directory structure
+
+## Related
+
+- Use `/build-presentation` to generate HTML presentation
+- Use `/preview-presentation` to preview with live reload
+- Use `presentation-examples` skill to see example scripts (e.g., count-tags.js)

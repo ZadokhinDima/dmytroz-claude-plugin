@@ -537,3 +537,7 @@ Refer to plugin README for complete settings documentation.
 5. Iterate and rebuild
 
 For detailed tag syntax, component styling, and advanced techniques, consult the reference files listed above.
+
+**See Working Examples:**
+
+Use the `presentation-examples` skill to view complete, working presentations that demonstrate all tags and features in action. The example presentations show best practices for structure, styling, and tag usage.
