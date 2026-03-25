@@ -1,0 +1,18 @@
+{
+  "name": "caffeinate",
+  "version": "0.1.0",
+  "description": "Manages caffeinate lifecycle during Claude Code sessions",
+  "author": {
+    "name": "Dmytro Zadokhin",
+    "email": "dmytro@example.com"
+  },
+  "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin/tree/main/caffeinate",
+  "repository": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "caffeinate",
+    "sleep",
+    "macos",
+    "productivity"
+  ]
+}

@@ -20,6 +20,20 @@
       "license": "MIT",
       "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
       "repository": "https://github.com/ZadokhinDima/dmytroz-claude-plugin"
+    },
+    {
+      "name": "caffeinate",
+      "version": "0.1.0",
+      "description": "Manages caffeinate lifecycle during Claude Code sessions",
+      "source": "./caffeinate",
+      "category": "productivity",
+      "tags": ["caffeinate", "sleep", "macos", "productivity"],
+      "author": {
+        "name": "Dmytro Zadokhin"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/ZadokhinDima/dmytroz-claude-plugin",
+      "repository": "https://github.com/ZadokhinDima/dmytroz-claude-plugin"
     }
   ]
 }
